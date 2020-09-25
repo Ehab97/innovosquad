@@ -45,6 +45,11 @@ var toggle = document.querySelector('.toggle');
     background-size: cover;`);
     // console.log(project[index]);
   }
+  // window.scroll({
+  //   top: 0, 
+  //   left: 0, 
+  //   behavior: 'smooth'
+  // });
 
 });
 new Vue({

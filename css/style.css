@@ -2,6 +2,9 @@
 /* Portrait tablet to landscape and desktop */
 /* Landscape phone to portrait tablet */
 /* Landscape phones and down */
+html {
+  scroll-behavior: smooth; }
+
 body {
   @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
   /*creating awsome scroll bar */
