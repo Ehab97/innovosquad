@@ -67,7 +67,8 @@ header {
       header nav .wrapper .links {
         grid-area: links;
         display: flex;
-        justify-content: space-around; }
+        justify-content: space-around;
+        padding-top: 1em; }
         header nav .wrapper .links .toggle {
           display: none;
           cursor: pointer; }
@@ -273,6 +274,10 @@ header {
       margin-bottom: 25px; }
     .features .card p {
       font-size: 16px; }
+
+.active {
+  color: #f7685b !important;
+  border-color: #f7685b !important; }
 
 .portfolio {
   padding: 50px 0;

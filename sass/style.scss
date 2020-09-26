@@ -105,7 +105,7 @@ header{
                 grid-area: links;
                 display: flex;
                 justify-content: space-around;
-
+                padding-top: 1em;
                 .toggle {
                     display: none;
                     cursor: pointer;
@@ -417,6 +417,10 @@ header{
 }
 // end ffeatures
 // start portfolio
+.active{
+    color: $primary !important;
+    border-color: $primary !important;
+}
 .portfolio{
     padding: 50px 0;
     padding-bottom: 0;
@@ -441,6 +445,7 @@ header{
         }
     }
     .tabs{
+        
     margin: 20px auto;
     width: 60%;
     display: flex;
