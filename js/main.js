@@ -71,31 +71,10 @@ document.addEventListener("DOMContentLoaded", function () {
     // console.log(project[index]);
   }
 
-  for (let i = 0; i < data.length; i++) {
-    data[i].onclick=(e)=>{
-      for (let j = 0; j < p.length; j++) {
-        let id=p[j].getAttribute('id');
-        if(data[i].classList.contains(`${id}`)){
-          console.log(id);
-          // Select the email link anchor text  
-          var copied = document.querySelector(`#${id}`);
-          console.log(copied,copied.textContent);
-          // copied.select();
-          // copied.setSelectionRange(0, 99999)
-          // document.execCommand("copy");
-          navigator.clipboard.writeText().then(
-            (clipText) => {
-              clipText+=copied.innerText ;
-              console.log(clipText)
-            });
-            console.log(copied.innerText);
-         
-        }
-      }
-    }
-    
-  }
- 
+  var clipboardMail  = new ClipboardJS('.mail');
+  var clipboardPhone = new ClipboardJS('.phone');
+  var clipboardAdd   = new ClipboardJS('.address');
+
 //observable intersection
 // const port=document.querySelector('#port');
 // const feat=document.querySelector('#feat');
