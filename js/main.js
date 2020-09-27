@@ -96,7 +96,25 @@ document.addEventListener("DOMContentLoaded", function () {
     
   }
  
+//observable intersection
+// const port=document.querySelector('#port');
+// const feat=document.querySelector('#feat');
+// const contact=document.querySelector('#contact');
+// const about=document.querySelector('#about');
+// const test=document.querySelector('#test');
 
+// let observer = new IntersectionObserver(entries=>{
+//   console.log(entries);
+//   entries.forEach(enter=>{
+//     console.log(enter.intersectionRatio);
+//     if (enter.intersectionRatio>0) {
+//       enter.target.style.animation =`anim1 2s ease-out forwards`;
+//     }else{
+//       enter.target.style.animation ='none';
+//     }
+//   })
+// });
+// observer.observe(about);
   // window.scroll({
   //   top: 0, 
   //   left: 0, 
