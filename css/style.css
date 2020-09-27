@@ -2,11 +2,11 @@
 /* Portrait tablet to landscape and desktop */
 /* Landscape phone to portrait tablet */
 /* Landscape phones and down */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
 html {
   scroll-behavior: smooth; }
 
 body {
-  @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
   /*creating awsome scroll bar */
   /*end creating awsome scroll bar */ }
   body::-webkit-scrollbar {
@@ -537,6 +537,10 @@ header {
     background: #f5f6f8;
     border: none;
     padding: 10px 15px; }
+  @media (max-width: 576px) {
+    .contact-me form textarea {
+      width: 90%;
+      margin: 0 auto; } }
   .contact-me form .submit {
     text-align: center;
     width: 100%; }

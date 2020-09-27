@@ -3,13 +3,13 @@
 @import "mixins";
 @import "base";
 @import "layout";
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 html{
     scroll-behavior: smooth;
 }
 
 body {
-    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+    
 
     /*creating awsome scroll bar */
     &::-webkit-scrollbar {
@@ -483,7 +483,6 @@ header{
             {
 
                 display: none;
-                
                 background: #fff;
                 position: absolute;
                 bottom: 0;
@@ -748,20 +747,24 @@ padding: 50px 25px;
         }
         
     }
-    form{
-        .head{
+    form {
+        .head {
             display: flex;
-    justify-content: space-between;
-    align-items: center;
-    @include sm{
-flex-direction: column;
-    }
-            .form-group{
+            justify-content: space-between;
+            align-items: center;
+
+            @include sm {
+                flex-direction: column;
+            }
+
+            .form-group {
                 width: 48%;
-                @include sm{
+
+                @include sm {
                     width: 90%;
                 }
-                .form-control{
+
+                .form-control {
                     color: #6d8097;
                     background: #f5f6f8;
                     border: none;
@@ -769,25 +772,33 @@ flex-direction: column;
                 }
             }
         }
-        .form-control{
+
+        .form-control {
             color: #6d8097;
             background: #f5f6f8;
             border: none;
             padding: 10px 15px;
         }
-        .submit{
+        textarea{
+            @include sm{
+                width: 90%;
+               margin: 0 auto;
+            }
+        }
+        .submit {
             text-align: center;
-    width: 100%;
-    .btn{
-        border-radius: 5px;
-    color: #fff;
-    font-size: 16px;
-    padding: 10px 40px;
-    background-color: #f7685b;
-    transition: 500ms ease-in-out;
-    cursor: pointer;
-    text-transform: capitalize;
-    }
+            width: 100%;
+
+            .btn {
+                border-radius: 5px;
+                color: #fff;
+                font-size: 16px;
+                padding: 10px 40px;
+                background-color: #f7685b;
+                transition: 500ms ease-in-out;
+                cursor: pointer;
+                text-transform: capitalize;
+            }
         }
     }
 }
