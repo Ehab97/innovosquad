@@ -496,6 +496,10 @@ header {
         .contact-me .info .data .icon i {
           color: #f7685b;
           font-size: 20px; }
+      @media (max-width: 576px) {
+        .contact-me .info .data .text {
+          width: 35%;
+          overflow-wrap: break-word; } }
       .contact-me .info .data .text h5 {
         color: #192a3e;
         font-size: 1rem;
@@ -564,7 +568,7 @@ footer .links {
   display: flex;
   justify-content: center;
   align-items: center; }
-  footer .links .link {
+  footer .links .link-icon {
     cursor: pointer;
     width: 35px;
     height: 35px;
@@ -576,13 +580,13 @@ footer .links {
     align-items: center;
     margin: 20px 5px;
     transition: 500ms ease-in-out; }
-    footer .links .link a {
+    footer .links .link-icon a {
       text-decoration: none; }
-      footer .links .link a i {
+      footer .links .link-icon a i {
         color: #fff; }
-    footer .links .link:hover {
+    footer .links .link-icon:hover {
       background-color: #fff; }
-      footer .links .link:hover a i {
+      footer .links .link-icon:hover a i {
         color: #f7685b; }
 footer .copy {
   width: 100%;
