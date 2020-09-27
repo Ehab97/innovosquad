@@ -179,6 +179,9 @@ header {
       font-size: 100px;
       font-weight: bold;
       color: #f3f4f5; }
+      @media (max-width: 576px) {
+        .about-me .content .header h2 {
+          font-size: 55px; } }
     .about-me .content .header h4 {
       color: #192a3e;
       position: relative;
@@ -186,6 +189,9 @@ header {
       font-size: 32px;
       font-style: normal;
       font-weight: bold; }
+      @media (max-width: 576px) {
+        .about-me .content .header h4 {
+          top: -50px; } }
     .about-me .content .para p {
       font-size: 16px;
       line-height: 26px;
@@ -223,16 +229,21 @@ header {
     text-align: center;
     margin-bottom: 50px; }
     .features .heading h2 {
-      font-weight: bold;
       font-size: 100px;
       font-weight: bold;
       color: #f3f4f5; }
+      @media (max-width: 576px) {
+        .features .heading h2 {
+          font-size: 55px; } }
     .features .heading h4 {
       color: #192a3e;
       position: relative;
       top: -80px;
       font-size: 35px;
       font-weight: 500; }
+      @media (max-width: 576px) {
+        .features .heading h4 {
+          top: -50px; } }
   .features .card {
     text-align: center;
     padding: 20px;
@@ -250,7 +261,8 @@ header {
       color: #fff; }
       .features .card:hover i {
         color: #f7685b; }
-      .features .card:hover h5, .features .card:hover p {
+      .features .card:hover h5,
+      .features .card:hover p {
         display: block; }
     .features .card .center {
       display: flex;
@@ -268,7 +280,8 @@ header {
       align-items: center; }
       .features .card .circle i {
         color: #f7685b; }
-    .features .card h5, .features .card p {
+    .features .card h5,
+    .features .card p {
       display: none;
       color: #fff; }
     .features .card h5 {
@@ -287,7 +300,6 @@ header {
     text-align: center;
     margin-bottom: 50px; }
     .portfolio .heading h2 {
-      font-weight: bold;
       font-size: 100px;
       font-weight: bold;
       color: #f3f4f5; }
@@ -301,6 +313,9 @@ header {
       font-size: 32px;
       font-style: normal;
       font-weight: bold; }
+      @media (max-width: 576px) {
+        .portfolio .heading h4 {
+          top: -50px; } }
   .portfolio .tabs {
     margin: 20px auto;
     width: 60%;
@@ -377,7 +392,6 @@ header {
     margin-bottom: 50px;
     text-transform: capitalize; }
     .testmonials .heading h2 {
-      font-weight: bold;
       font-size: 100px;
       font-weight: bold;
       color: #f3f4f5; }
@@ -391,6 +405,9 @@ header {
       font-size: 32px;
       font-style: normal;
       font-weight: bold; }
+      @media (max-width: 576px) {
+        .testmonials .heading h4 {
+          top: -50px; } }
   .testmonials .card {
     padding: 0 15px 15px 15px;
     border-radius: 5px;
@@ -426,7 +443,9 @@ header {
       background-color: #f7685b;
       transition: 500ms ease-in-out;
       cursor: pointer; }
-      .testmonials .card:hover h5, .testmonials .card:hover p, .testmonials .card:hover .para {
+      .testmonials .card:hover h5,
+      .testmonials .card:hover p,
+      .testmonials .card:hover .para {
         color: #fff; }
 
 .hire {
@@ -458,7 +477,6 @@ header {
     margin-bottom: 50px;
     text-transform: capitalize; }
     .contact-me .heading h2 {
-      font-weight: bold;
       font-size: 100px;
       font-weight: bold;
       color: #f3f4f5; }
@@ -472,6 +490,9 @@ header {
       font-size: 32px;
       font-style: normal;
       font-weight: bold; }
+      @media (max-width: 576px) {
+        .contact-me .heading h4 {
+          top: -50px; } }
   .contact-me .info {
     display: flex;
     justify-content: space-between;
